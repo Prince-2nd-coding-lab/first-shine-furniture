@@ -1,4 +1,5 @@
 # Roadmap
+- [x] Repair missing public-page styles and verify desktop/mobile layouts
 - [ ] Enable Cloud; schema (categories, products, projects, enquiries, site_settings, roles), storage
 - [ ] Generate category + hero images
 - [ ] Navy/warm-white/wood theme

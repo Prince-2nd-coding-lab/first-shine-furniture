@@ -12,3 +12,4 @@
 - Use shared site header/footer in the root route, with individual content routes and unique metadata, so navigation and page sharing remain consistent.
 - Keep furniture portfolio assets and enquiry links in a browser-safe shared module; contact actions open WhatsApp or telephone without requiring stored customer data.
 - Clearly distinguish illustrative generated interiors from the business's actual portfolio photography to avoid misrepresenting products.
+- Keep shared public-page layout classes in src/styles.css aligned with the route markup so catalogue grids, galleries and forms remain consistent across screen sizes.
