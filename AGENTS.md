@@ -13,3 +13,5 @@
 - Keep furniture portfolio assets and enquiry links in a browser-safe shared module; contact actions open WhatsApp or telephone without requiring stored customer data.
 - Clearly distinguish illustrative generated interiors from the business's actual portfolio photography to avoid misrepresenting products.
 - Keep shared public-page layout classes in src/styles.css aligned with the route markup so catalogue grids, galleries and forms remain consistent across screen sizes.
+- Select Nitro's Vercel preset only for VERCEL=1 or Vite mode vercel, preserving the default Lovable Worker target and avoiding duplicate framework plugins.
+- Use Vercel Build Output API output rather than SPA rewrites or a static dist directory, because TanStack Start requires server rendering and server functions.
