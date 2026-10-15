@@ -1,0 +1,9 @@
+# Roadmap
+- [ ] Enable Cloud; schema (categories, products, projects, enquiries, site_settings, roles), storage
+- [ ] Generate category + hero images
+- [ ] Navy/warm-white/wood theme
+- [ ] Routes: /furniture, /furniture/$slug, /custom-orders, /projects, /admin, /auth; /collections redirect
+- [ ] Forms saving enquiries + uploads
+- [ ] Admin dashboard
+- [ ] SEO: sitemap, robots, LocalBusiness JSON-LD
+- [ ] Test
