@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 
 export const Route = createFileRoute('/auth')({
-  head: () => ({ meta: [{ title: 'Owner sign in | First Shine Furniture' }, { name: 'description', content: 'Sign in to manage the First Shine Furniture website.' }, { property: 'og:title', content: 'Owner sign in | First Shine Furniture' }, { property: 'og:description', content: 'Owner area.' }, { name: 'robots', content: 'noindex' }] }),
+  head: () => ({ meta: [{ title: 'Owner sign in | First Shine Furniture' }, { name: 'description', content: 'Sign in to manage the First Shine Furniture website.' }, { property: 'og:title', content: 'Owner sign in | First Shine Furniture' }, { property: 'og:description', content: 'Owner area.' }, { property: 'og:type', content: 'website' }, { name: 'twitter:card', content: 'summary' }, { name: 'robots', content: 'noindex' }] }),
   component: AuthPage,
 });
 

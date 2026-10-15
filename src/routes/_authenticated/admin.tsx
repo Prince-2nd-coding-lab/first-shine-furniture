@@ -12,7 +12,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { resolveImage, slugify, validateUpload } from '@/lib/furniture';
 
 export const Route = createFileRoute('/_authenticated/admin')({
-  head: () => ({ meta: [{ title: 'Admin | First Shine Furniture' }, { name: 'description', content: 'Manage the First Shine Furniture website.' }, { property: 'og:title', content: 'Admin | First Shine Furniture' }, { property: 'og:description', content: 'Owner dashboard.' }, { name: 'robots', content: 'noindex' }] }),
+  head: () => ({ meta: [{ title: 'Admin | First Shine Furniture' }, { name: 'description', content: 'Manage the First Shine Furniture website.' }, { property: 'og:title', content: 'Admin | First Shine Furniture' }, { property: 'og:description', content: 'Owner dashboard.' }, { property: 'og:type', content: 'website' }, { name: 'twitter:card', content: 'summary' }, { name: 'robots', content: 'noindex' }] }),
   component: Admin,
 });
 
