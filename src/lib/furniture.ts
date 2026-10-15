@@ -6,8 +6,11 @@ import wardrobes from '@/assets/cat-wardrobes.jpg';
 import tables from '@/assets/cat-tables.jpg';
 import office from '@/assets/cat-office.jpg';
 import doors from '@/assets/cat-doors.jpg';
+import accentChairs from '@/assets/accent_chairs.jpg';
+import tvUnit from '@/assets/tv_unit.jpg';
+import kitchenProject from '@/assets/kitchen.jpg';
 
-const assetImages: Record<string, string> = { sofas, beds, tv, kitchens, wardrobes, tables, office, doors };
+const assetImages: Record<string, string> = { sofas, beds, tv, kitchens, wardrobes, tables, office, doors, accent_chairs: accentChairs, tv_unit: tvUnit, kitchen: kitchenProject };
 
 export const DEFAULT_WHATSAPP = '250784874351';
 export const DEFAULT_PHONE = '+250 784 874 351';
