@@ -1,5 +1,5 @@
 # Roadmap
-- [ ] Configure Vercel deployment and document required settings
+- [x] Configure Vercel deployment and document required settings (hosted deployment untested)
 - [x] Repair missing public-page styles and verify desktop/mobile layouts
 - [ ] Enable Cloud; schema (categories, products, projects, enquiries, site_settings, roles), storage
 - [ ] Generate category + hero images
