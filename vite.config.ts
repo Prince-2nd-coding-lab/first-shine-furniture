@@ -6,9 +6,9 @@
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-export default defineConfig(({ mode }) => ({
+export default (env: import('vite').ConfigEnv) => defineConfig({
   // Preserve Lovable's default target; external Vercel builds use its adapter.
-  nitro: process.env.VERCEL === '1' || mode === 'vercel'
+  nitro: process.env['VERCEL'] === '1' || env.mode === 'vercel'
     ? { preset: 'vercel' }
     : undefined,
   tanstackStart: {
@@ -16,4 +16,4 @@ export default defineConfig(({ mode }) => ({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-}));
+})(env);
